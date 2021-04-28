@@ -9,13 +9,6 @@ class DownloadListView extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          // child: Row(
-          //   children: [
-          //     Column(
-          //       mainAxisAlignment: MainAxisAlignment.start,
-          //       crossAxisAlignment: CrossAxisAlignment.stretch,
-          //       children: [
-          // Container(
           child: ListView(
             padding: const EdgeInsets.all(8),
             children: [
@@ -29,11 +22,6 @@ class DownloadListView extends StatelessWidget {
               ),
             ],
           ),
-          //         ),
-          //       ],
-          //     )
-          //   ],
-          // ),
         ),
       ),
     );
